@@ -29,13 +29,18 @@ antd是后台ui框架，官网地址： https://ant.design/index-cn
 3，安装好依赖后，使用 npm run 就可以启动项目
 
 二，后端项目运行
+  依次启动三个项目
+
+
+
+
 ![输入图片说明](https://images.gitee.com/uploads/images/2018/0901/233019_548edd4d_1683168.png "登录")
 ![输入图片说明](https://images.gitee.com/uploads/images/2018/0901/233051_ccae4d3b_1683168.png "2.png")
 ![输入图片说明](https://images.gitee.com/uploads/images/2018/0901/233106_55532f6b_1683168.png "3.png")
 ![输入图片说明](https://images.gitee.com/uploads/images/2018/0901/233116_e8495cc3_1683168.png "4.png")
 ![输入图片说明](https://images.gitee.com/uploads/images/2018/0901/233128_71d5c005_1683168.png "07C6WLJ{%Q6$@MN08$XEFPV.png")
 ![输入图片说明](https://images.gitee.com/uploads/images/2018/0901/233140_35039e3b_1683168.png "5.png")
- 依次启动三个项目
+
 
 #### 使用说明
 
