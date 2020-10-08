@@ -61,7 +61,7 @@ export default class Axios {
             loading = document.getElementById('ajaxLoading');
             loading.style.display = 'block';
         }
-        let baseApi = 'http://127.0.0.1:7001';
+        let baseApi = 'http://118.190.62.94:8082';
         return new Promise((resolve,reject)=>{
             axios.post(baseApi+options.url, options.data
             ).then(function (response) {
@@ -85,7 +85,7 @@ export default class Axios {
             loading.style.display = 'block';
         }
 
-        let baseApi = 'http://127.0.0.1:7001';
+        let baseApi = 'http://118.190.62.94:8082';
         return new Promise((resolve,reject)=>{
             axios({
                 method: options.method,

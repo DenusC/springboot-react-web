@@ -18,7 +18,7 @@ export default class Login extends React.Component {
        let _this=this
         axios({
             method: 'post',
-            url: 'http://127.0.0.1:7001/authentication/login?username='+user.username+"&password="+user.password,
+            url: 'http://118.190.62.94:8082/authentication/login?username='+user.username+"&password="+user.password,
             data: {
             },
             headers: {
@@ -57,15 +57,15 @@ export default class Login extends React.Component {
     render() {
         return (
             <div className="login-page">
-                <div className="login-header">
+               {/* <div className="login-header">
                     <div className="logo">
                         <img src="/assets/logo-ant.svg" alt="dream21th后台管理系统"/>
                         后台管理系统
                     </div>
-                </div>
+                </div>*/}
                 <div className="login-content-wrap">
                     <div className="login-content">
-                        <div className="word">快鱼易贷 <br />引领城市新经济</div>
+                        <div className="word">志高止境 <br />引领城市新经济</div>
                         <div className="login-box" style={{borderRadius:"25px",backgroundColor:"rgba(0,0,0,0.5)"}}>
                             <div className="error-msg-wrap">
                                 <div
@@ -73,7 +73,7 @@ export default class Login extends React.Component {
                                     {this.state.errorMsg}
                                 </div>
                             </div>
-                            <div className="title">快鱼易贷欢迎你</div>
+                            <div className="title">志高止境欢迎你</div>
                             <LoginForm ref="login" loginSubmit={this.loginReq}/>
                         </div>
                     </div>
